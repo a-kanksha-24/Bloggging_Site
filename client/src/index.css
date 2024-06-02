@@ -174,7 +174,7 @@ footer{
 }
 .footer__copyright{
     text-align: center;
-    border-top: 2px solig gray;
+    border-top: 2px solig rgb(189, 206, 245);
     padding: 1rem;
     color: white;
     font-weight: 300;
@@ -195,7 +195,7 @@ footer{
 }
 
 .post{
-    background: rgb(162, 161, 161);
+    background: rgb(185, 184, 238);
     padding: 1rem;
     border-radius: 15px;
     padding-bottom: 2rem;
@@ -214,10 +214,10 @@ footer{
 }
 
 .post__content{
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
 }
 .post__content h3{
-    margin: 1rem 0 0.6rem;
+    margin: 0.5rem 0 0.6rem;
 }
  .post__footer{
     display: flex;
@@ -536,21 +536,4 @@ input, select, textarea{
     .dashboard__post-thumbnail{
         width: 5rem;
     }
-}
-
-
-
-.loader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    place-items: center;
-    background: black;
-}
-.loader__image{
-    width: 16.5rem;
-    aspect-ratio: 1/1;
 }

@@ -127,7 +127,7 @@ const editUser=async (req,res,next)=>{
             return res.status(403).json({ error: 'User not found' });
         }
 
-        const emailExist=await User.findOne({email});
+        // const emailExist=await User.findOne({email});
 
         // if(emailExist&&(emailExist.__id=req.user.id)){
         //     return res.status(403).json({ error: 'User already exists' });
